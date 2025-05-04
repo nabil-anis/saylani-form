@@ -1,0 +1,250 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Registration Form - SMIT
+  </title>
+  <link rel="icon" type="image/png" href="jhdjh.png" />
+
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-[#1a3e7a]">
+  <header class="relative bg-white max-w-6xl mx-auto px-4 pt-6 pb-2">
+   <div class="flex justify-center">
+    <img alt="Syllani logo with green and blue text and icon" class="h-14 object-contain" height="60" src="logo_saylaniwelfare.22bf709605809177256c.png" width="200"/>
+   </div>
+   <h1 class="text-center font-extrabold text-[22px] leading-[28px] text-[#1a1a1a] mt-1">
+    Registration Form - SMIT
+   </h1>
+   <p class="text-center text-[12px] leading-[14px] text-[#666666] font-normal mt-1">
+    Services - Education - Registration
+   </p>
+   <div class="absolute top-6 right-4 border border-[#1a3e7a] rounded-full text-[#1a3e7a] text-[12px] leading-[14px] font-normal px-3 py-1 flex items-center gap-1 cursor-pointer select-none">
+    <i class="fas fa-university text-[14px]">
+    </i>
+    Student portal
+   </div>
+   <div class="absolute top-16 left-6 flex gap-3 text-white text-[14px] leading-[16px] font-semibold">
+    <a aria-label="Facebook" class="w-7 h-7 rounded-full bg-[#3b5998] flex items-center justify-center" href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a aria-label="Instagram" class="w-7 h-7 rounded-full bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] to-[#d62976] flex items-center justify-center" href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a aria-label="YouTube" class="w-7 h-7 rounded-full bg-[#ff0000] flex items-center justify-center" href="#">
+     <i class="fab fa-youtube">
+     </i>
+    </a>
+   </div>
+  </header>
+  <main class="max-w-6xl mx-auto px-4 mt-6">
+   <nav class="border-b border-[#f0f0f0] flex text-[12px] leading-[14px] font-normal text-[#1a3e7a]">
+    <button aria-current="page" class="border-b-2 border-[#7dbf2e] text-[#7dbf2e] px-4 py-2">
+     Registration
+    </button>
+    <button class="px-4 py-2 border-b border-[#f0f0f0] text-[#1a3e7a]">
+     Download ID Card
+    </button>
+    <button class="px-4 py-2 border-b border-[#f0f0f0] text-[#1a3e7a]">
+     Results
+    </button>
+   </nav>
+   <form class="mt-6 text-[12px] leading-[14px] font-normal text-[#1a3e7a]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="country">
+       Select country
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#666666] font-normal" id="country" name="country">
+       <option disabled="" selected="">
+        Select country
+       </option>
+      </select>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="city">
+       Select city
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#666666] font-normal" id="city" name="city">
+       <option disabled="" selected="">
+        Select city
+       </option>
+      </select>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="course">
+       Select course or event
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#000000] font-semibold" id="course" name="course">
+       <option disabled="" selected="">
+        Select course or event
+       </option>
+      </select>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="computer">
+       Select your computer proficiency
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="computer" name="computer">
+       <option disabled="" selected="">
+        Select your computer proficiency
+       </option>
+      </select>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="fullname">
+       Full name
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="fullname" name="fullname" placeholder="Full name" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="fathername">
+       Father name
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="fathername" name="fathername" placeholder="Father name" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="email">
+       Email
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="email" name="email" placeholder="Email" type="email"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="phone">
+       Phone
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="phone" name="phone" placeholder="Phone" type="tel"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="cnic">
+       CNIC
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="cnic" name="cnic" placeholder="CNIC" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="fathercnic">
+       Father's CNIC (optional)
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="fathercnic" name="fathercnic" placeholder="Father's CNIC (optional)" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="dob">
+       Date of birth
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#000000] font-normal" id="dob" name="dob" placeholder="dd/mm/yyyy" type="date"/>
+     </div>
+     <div>
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="gender">
+       Select gender
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="gender" name="gender">
+       <option disabled="" selected="">
+        Select gender
+       </option>
+      </select>
+     </div>
+     <div class="md:col-span-2">
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="address">
+       Address
+      </label>
+      <input class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="address" name="address" placeholder="Address" type="text"/>
+     </div>
+     <div class="md:col-span-2">
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="qualification">
+       Last qualification
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="qualification" name="qualification">
+       <option disabled="" selected="">
+        Last qualification
+       </option>
+      </select>
+     </div>
+     <div class="md:col-span-2">
+      <label class="block mb-1 font-semibold text-[12px] leading-[14px] text-[#1a3e7a]" for="laptop">
+       Do you have a Laptop?
+      </label>
+      <select class="w-full border border-[#7dbf2e] rounded px-3 py-2 text-[12px] leading-[14px] text-[#cccccc] font-normal" id="laptop" name="laptop">
+       <option disabled="" selected="">
+        Do you have a Laptop?
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="flex items-start gap-4 mt-6">
+     <div class="w-20 h-20 border border-dashed border-[#cccccc] rounded-md flex flex-col items-center justify-center text-[12px] leading-[14px] font-semibold text-[#666666] cursor-pointer select-none">
+      + Upload
+     </div>
+     <div class="text-[9px] leading-[11px] font-normal text-black max-w-xs">
+      <p>
+       With white or blue background
+      </p>
+      <p>
+       File size must be less than 1MB
+      </p>
+      <p>
+       File type: jpg, jpeg, png
+      </p>
+      <p>
+       Upload your recent passport size picture
+      </p>
+      <p>
+       Your Face should be clearly visible without any Glasses
+      </p>
+     </div>
+    </div>
+    <hr class="border-t border-[#f0f0f0] mt-8 mb-6"/>
+    <ol class="list-decimal list-inside text-[10px] leading-[12px] font-normal text-black max-w-4xl mx-auto space-y-1">
+     <li>
+      I hereby, solemnly declare that the data and facts mentioned herein are
+          true and correct to the best of my knowledge. Further, I will abide by
+          all the established and future regulations and policies of SWIT
+     </li>
+     <li>
+      I hereby accept the responsibilities of good conduct and guarantee
+          that I will not be involved in any other activity, political or
+          ethical, but learning during my stay in the program.
+     </li>
+     <li>
+      Defiance will render my admission canceled at any point in time.
+     </li>
+     <li>
+      Upon completion, of the course, I will complete the required project by SWIT.
+     </li>
+     <li>
+      It's mandatory for female students to wear abaya/hijab in the class
+     </li>
+    </ol>
+    <div class="mt-6 max-w-xs mx-auto">
+     <div class="border border-[#cccccc] rounded-md flex items-center justify-between p-2" style="height: 60px;">
+      <label class="flex items-center gap-2 cursor-pointer select-none text-[12px] leading-[14px] text-black font-normal">
+       <input class="w-5 h-5 border border-[#cccccc]" type="checkbox"/>
+       I'm not a robot
+      </label>
+      <div class="w-[120px] h-[56px] bg-[#f0f0f0] flex flex-col justify-center items-center text-[8px] leading-[10px] text-[#666666] font-normal">
+       <div class="mb-0.5">
+        reCAPTCHA
+       </div>
+       <div>
+        Privacy - Terms
+       </div>
+      </div>
+     </div>
+    </div>
+    <button class="mt-6 w-full max-w-4xl mx-auto block bg-[#7dbf2e] text-white font-semibold text-[12px] leading-[14px] py-3 rounded" type="submit">
+     SUBMIT
+    </button>
+   </form>
+  </main>
+ </body>
+</html>
